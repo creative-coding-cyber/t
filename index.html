@@ -1,0 +1,437 @@
+
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   FitNetwork
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100 text-black-800">
+  <html lang="en">
+    <head>
+     <meta charset="utf-8"/>
+     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+     <title>
+      FitNetwork
+     </title>
+     <script src="https://cdn.tailwindcss.com">
+     </script>
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+     <style>
+      body {
+               font-family: 'Roboto', sans-serif;
+           }
+     </style>
+    </head>
+    <body class="bg-gray-100 text-gray-800">
+     <!-- Navbar -->
+     <nav class="bg-white shadow-lg">
+      <div class="max-w-6xl mx-auto px-4">
+       <div class="flex justify-between">
+        <div class="flex space-x-7">
+         <div>
+          <!-- Website Logo -->
+          <a class="flex items-center py-4 px-2" href="#">
+           <img alt="FitNetwork Logo" class="h-8 w-8 mr-2" height="50" src="fitnet.jpeg" />
+            FitNetwork
+           </span>
+          </a>
+         </div>
+         <!-- Primary Navbar items -->
+         <div class="hidden md:flex items-center space-x-1">
+          <a class="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold" href="index.html">
+           Home
+          </a>
+          <a class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300" href="about.html">
+           About Us
+          </a>
+          <a class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300" href="#how-it-works">
+           How It Works
+          </a>
+          <a class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300" href="join.html">
+           Join as a Member
+          </a>
+          <a class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300" href="parner.html">
+           Partner with Us
+          </a>
+          
+          <a class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300" href="contact.html">
+           Contact Us
+          </a>
+         </div>
+        </div>
+       
+        <!-- Mobile menu button -->
+        <div class="md:hidden flex items-center">
+         <button class="outline-none mobile-menu-button">
+          <svg class="w-6 h-6 text-gray-500 hover:text-green-500" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" x-show="!showMenu">
+           <path d="M4 6h16M4 12h16m-7 6h7">
+           </path>
+          </svg>
+         </button>
+        </div>
+       </div>
+      </div>
+      <!-- mobile menu -->
+      <div class="hidden mobile-menu">
+       <ul class="">
+        <li class="active">
+         <a class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold" href="index.html">
+          Home
+         </a>
+        </li>
+        <li>
+         <a class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300" href="about.html">
+          About Us
+         </a>
+        </li>
+        <li>
+         <a class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300" href="#how-it-works">
+          How It Works
+         </a>
+        </li>
+        <li>
+         <a class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300" href="join.html">
+          Join as a Member
+         </a>
+        </li>
+        <li>
+         <a class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300" href="parner.html">
+          Partner with Us
+         </a>
+        </li>
+         
+        <li>
+         <a class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300" href="contact.html">
+          Contact Us
+         </a>
+        </li>
+       </ul>
+      </div>
+      <script>
+       const btn = document.querySelector("button.mobile-menu-button");
+               const menu = document.querySelector(".mobile-menu");
+   
+               btn.addEventListener("click", () => {
+                   menu.classList.toggle("hidden");
+               });
+      </script>
+     </nav>
+    </body>
+   </html>
+  <!-- Hero Section -->
+  <section class="bg-cover bg-center h-screen" style="background-image: url('gyym.jpeg');">
+   <div class="flex items-center justify-center h-full bg-black bg-opacity-80">
+    <div class="text-center text-white">
+     <h1 class="text-4xl md:text-6xl font-bold mb-4">
+      Your Gym Membership, Now Nationwide!
+     </h1>
+     <p class="text-lg md:text-2xl mb-8">
+      Join FitNetwork and access multiple gyms with one membership.
+     </p>
+     <a class="bg-orange-500 text-white py-2 px-4 rounded-full text-lg md:text-xl hover:bg-green-600 transition duration-300" href="contact.html">
+      Join Now
+     </a>
+     <a class="bg-orange-500 text-white py-2 px-4 rounded-full text-lg md:text-xl hover:bg-orange-600 transition duration-300 ml-4" href="parner.html">
+      Partner with Us
+     </a>
+     <br><br>
+     <a class="bg-orange-500 text-white py-2 px-4 rounded-full text-lg md:text-xl hover:bg-orange-600 transition duration-300 ml-4" id="getStartedBtn"
+     class="bg-blue-300 text-gray-900 font-semibold px-5 py-2 rounded-md hover:bg-yellow-500 transition flex items-center space-x-2 "
+     aria-haspopup="dialog"
+     aria-controls="signupModal">
+      Get Started
+     </a>
+     
+    </div>
+   </div>
+   
+  <!-- Modal -->
+  <div
+  id="signupModal"
+  class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 pointer-events-none transition-opacity duration-300"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="modalTitle"
+  aria-describedby="modalDesc"
+>
+  <div class="bg-white rounded-lg shadow-lg max-w-md w-full mx-4 p-8 relative">
+    <button
+      id="closeModalBtn"
+      class="absolute top-4 right-4 text-gray-600 hover:text-gray-900 focus:outline-none"
+      aria-label="Close sign up form"
+    >
+      <i class="fas fa-times text-2xl"></i>
+    </button>
+    <h2 id="modalTitle" class="text-2xl font-bold mb-4 text-gray-900">
+      Sign Up for PowerGym
+    </h2>
+    <p id="modalDesc" class="mb-6 text-gray-700">
+      Create your account to start your fitness journey with us.
+    </p>
+    <form id="signupForm" class="space-y-5" action="#" method="POST">
+      <div>
+        <label for="fullName" class="block text-gray-800 font-semibold mb-1"
+          >Full Name</label
+        >
+        <input
+          type="text"
+          id="fullName"
+          name="fullName"
+          required
+          placeholder="John Doe"
+          class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+        />
+      </div>
+      <div>
+        <label for="email" class="block text-gray-800 font-semibold mb-1"
+          >Email Address</label
+        >
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="john@example.com"
+          class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+        />
+      </div>
+      <div>
+        <label for="password" class="block text-gray-800 font-semibold mb-1"
+          >Password</label
+        >
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+          placeholder="********"
+          class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+          minlength="6"
+        />
+      </div>
+      <div>
+        <label for="goal" class="block text-gray-800 font-semibold mb-1"
+          >Fitness Goal</label
+        >
+        <select
+          id="goal"
+          name="goal"
+          required
+          class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+        >
+          <option value="" disabled selected>Select your goal</option>
+          <option value="weight_loss">Weight Loss</option>
+          <option value="muscle_gain">Muscle Gain</option>
+          <option value="endurance">Endurance</option>
+          <option value="general_fitness">General Fitness</option>
+        </select>
+      </div>
+      <button
+        type="submit"
+        class="w-full bg-yellow-400 text-gray-900 font-bold py-3 rounded-md hover:bg-yellow-500 transition"
+      >
+        Sign Up
+      </button>
+    </form>
+  </div>
+</div>
+
+<script>
+  const getStartedBtns = document.querySelectorAll('#getStartedBtn, #getStartedBtnMain');
+  const modal = document.getElementById('signupModal');
+  const closeModalBtn = document.getElementById('closeModalBtn');
+
+  getStartedBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      modal.classList.remove('opacity-0', 'pointer-events-none');
+      modal.classList.add('opacity-100');
+      document.body.style.overflow = 'hidden';
+      // Focus first input for accessibility
+      setTimeout(() => {
+        document.getElementById('fullName').focus();
+      }, 100);
+    });
+  });
+
+  closeModalBtn.addEventListener('click', () => {
+    modal.classList.add('opacity-0', 'pointer-events-none');
+    modal.classList.remove('opacity-100');
+    document.body.style.overflow = '';
+  });
+
+  // Close modal on clicking outside the modal content
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      closeModalBtn.click();
+    }
+  });
+
+  // Close modal on pressing Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !modal.classList.contains('opacity-0')) {
+      closeModalBtn.click();
+    }
+  });
+
+  // Optional: handle form submission (prevent default for demo)
+  const signupForm = document.getElementById('signupForm');
+  signupForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    alert('Thank you for signing up, ' + signupForm.fullName.value + '!');
+    closeModalBtn.click();
+    signupForm.reset();
+  });
+</script>
+  <!-- How It Works -->
+  <section class="py-20 bg-green-100" id="how-it-works">
+   <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-12">
+     How It Works
+    </h2>
+    <div class="flex flex-wrap -mx-4">
+     <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0">
+      <div class="bg-gray-100 p-6 rounded-lg shadow-lg text-center">
+       <img alt="Icon representing choosing a gym" class="mx-auto mb-4" src="cc.jpg"/>
+       <h3 class="text-xl font-semibold mb-2">
+        Choose a Gym
+       </h3>
+       <p class="text-gray-600">
+        Select your home gym and get your membership.
+       </p>
+      </div>
+     </div>
+     <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0">
+      <div class="bg-gray-100 p-6 rounded-lg shadow-lg text-center">
+       <img alt="Icon representing upgrading to Fit Access" class="mx-auto mb-4" src="saa.jpg"/>
+       <h3 class="text-xl font-semibold mb-2">
+        Upgrade to Fit Access
+       </h3>
+       <p class="text-gray-600">
+        Upgrade your membership for nationwide entry.
+       </p>
+      </div>
+     </div>
+     <div class="w-full md:w-1/3 px-4">
+      <div class="bg-gray-100 p-6 rounded-lg shadow-lg text-center">
+       <img alt="Icon representing enjoying unlimited workouts" class="mx-auto mb-4" src="enjoy.jpg"/>
+       <h3 class="text-xl font-semibold mb-2">
+        Enjoy Unlimited Workouts
+       </h3>
+       <p class="text-gray-600">
+        Access multiple gyms and enjoy unlimited workouts.
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Key Benefits -->
+  <section class="py-20 bg-pink-200 opacity-60">
+   <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-12">
+     Key Benefits
+    </h2>
+    <div class="flex flex-wrap -mx-4">
+     <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0">
+      <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+       <i class="fas fa-map-marker-alt text-green-500 text-4xl mb-4">
+       </i>
+       <h3 class="text-xl font-semibold mb-2">
+        Workout Anywhere in India
+       </h3>
+       <p class="text-gray-600">
+        Access gyms across the country with one membership.
+       </p>
+      </div>
+     </div>
+     <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0">
+      <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+       <i class="fas fa-dumbbell text-green-500 text-4xl mb-4">
+       </i>
+       <h3 class="text-xl font-semibold mb-2">
+        One Membership, Multiple Gyms
+       </h3>
+       <p class="text-gray-600">
+        Enjoy the flexibility of working out at different gyms.
+       </p>
+      </div>
+     </div>
+     <div class="w-full md:w-1/3 px-4">
+      <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+       <i class="fas fa-mobile-alt text-green-500 text-4xl mb-4">
+       </i>
+       <h3 class="text-xl font-semibold mb-2">
+        Hassle-Free Access with Mobile App
+       </h3>
+       <p class="text-gray-600">
+        Use our mobile app for easy and quick access to gyms.
+       </p>
+       
+      </div>
+      
+     </div>
+    </div>
+   
+   </div>
+   <br><br>
+   <div class="container mx-auto text-center">
+   <a href="index.html">Back To Home</a>
+  </div>
+  </section>
+   <!-- Footer -->
+   <footer class="bg-gray-800 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+     <div class="flex justify-between">
+      <div>
+       <h3 class="text-lg font-bold">
+        FitNetwork
+       </h3>
+       <p class="mt-2 text-gray-400">
+        Your Gym Membership, Now Nationwide!
+       </p>
+      </div>
+      <div class="flex space-x-6">
+       <a class="text-gray-400 hover:text-white" href="#">
+        <i class="fab fa-facebook-f">
+        </i>
+       </a>
+       <a class="text-gray-400 hover:text-white" href="#">
+        <i class="fab fa-twitter">
+        </i>
+       </a>
+       <a class="text-gray-400 hover:text-white" href="#">
+        <i class="fab fa-instagram">
+        </i>
+       </a>
+       <a class="text-gray-400 hover:text-white" href="#">
+        <i class="fab fa-linkedin-in">
+        </i>
+       </a>
+      </div>
+     </div>
+     <div class="mt-8 text-center text-gray-400">
+      <p>
+       © 2025 FitNetwork. All rights reserved.
+      </p>
+     </div>
+    </div>
+   </footer>
+  
+
+    
+   
+  
+ </body>
+</html>
